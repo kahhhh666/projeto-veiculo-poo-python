@@ -1,0 +1,40 @@
+Instruções do Projeto: Cálculo de Seguro e IPVA Automotivo
+Objetivo
+Desenvolver uma aplicação web de cadastro de veículos usando HTML, CSS e JavaScript puro.
+---------------------------------------------------------------------------------------------
+Dados do Veículo (RF01)
+O formulário deve coletar:
+
+Modelo, Marca, Placa
+Ano de fabricação
+Valor de mercado
+Tipo de combustível (via radio buttons)
+
+
+Regras de Cálculo
+
+Seguro obrigatório: 10% do valor do veículo (para todos)
+IPVA por combustível:
+
+Gasolina → 20%
+Etanol → 15%
+Bicombustível → 10%
+Híbrido → 8%
+Elétrico → 2%
+
+
+Isenção de IPVA: veículos com mais de 20 anos de fabricação
+
+---------------------------------------------------------------------------------------------
+
+Listagem (RF02)
+Exibir abaixo do formulário: modelo, marca, placa, idade do veículo, valor do seguro, valor do IPVA (ou "Isento") e valor total a pagar.
+
+---------------------------------------------------------------------------------------------
+
+RF03: Limpar o formulário automaticamente após o cadastro
+
+---------------------------------------------------------------------------------------------
+
+RF04: Remover veículo ao clicar nele (ou botão de exclusão como diferencial)
+Não permitir envio com campos vazios
