@@ -1,4 +1,7 @@
+import os
 from veiculo import Veiculo
+
+veiculos = []
 
 while True :
     Modelo = input("Qual o modelo do seu carro ? ")
@@ -30,11 +33,20 @@ while True :
         
         }
     veiculo = Veiculo(**objVeiculo)
+    veiculos.append(veiculo)
+
+    os.system('cls' if os.name == 'nt' else 'clear')
+    print("***************** Veículos Cadastrados *****************")
+    for v in veiculos:
+        print(v.Modelo, v.Marca)
+    
     
     opcao = input("Deseja finalizar cadastro ? (s/n) ")
     if opcao == "s":
+        os.system('cls' if os.name == 'nt' else 'clear')
         break
-   
-                    
+    
+
+    
     
     

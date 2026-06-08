@@ -2,10 +2,10 @@ Instruções do Projeto: Cálculo de Seguro e IPVA Automotivo
 Objetivo
 Desenvolver uma aplicação web de cadastro de veículos usando HTML, CSS e JavaScript puro.
 ---------------------------------------------------------------------------------------------
-Dados do Veículo (RF01)
+Dados do Veículo (RF01) -- Feito
 O formulário deve coletar:
 
-Modelo, Marca, Placa
+Modelo, Marca, Placa 
 Ano de fabricação
 Valor de mercado
 Tipo de combustível (via radio buttons)
